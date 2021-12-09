@@ -1,6 +1,6 @@
 # Schwack booking script
 &nbsp;
-####  For windows
+##  For windows
 Create new virtual environment:
 ```
 python -m venv venv
