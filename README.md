@@ -1,4 +1,4 @@
-# Schwack booking script\
+# Schwack booking script
 
 To run the script:\
 LOCATION TO PYTHON3 Book.py YOURNAME YOUREMAIL YOURNUMBER\
