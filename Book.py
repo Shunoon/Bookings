@@ -11,15 +11,14 @@ def main():
     driver = webdriver.Chrome("C:\Program Files (x86)\chromedriver.exe")
 
     # Opening website and clicking screening 1 in a while loop every 5 seconds
+    website = "https://www.cinema.mv/movie/spider-man-no-way-home"
     while True:
         try:
-            driver.get("https://www.cinema.mv/movie/satyameva-jayate-2")
-            link = driver.find_element_by_xpath('//*[@id="container"]/div[2]/div/div[4]/ul/li[2]/a')
+            driver.get(website)
+            link = driver.find_element_by_xpath('//*[@id="container"]/div[2]/div/div[4]/ul/li[1]/a')
             link.click()
             break
         except NoSuchElementException:
-            print('Number of arguments:', len(sys.argv), 'arguments.')
-            print ('Argument List:', str(sys.argv))
             time.sleep(5)
     try:
         # Choosing the seats
