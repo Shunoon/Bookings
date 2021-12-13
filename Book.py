@@ -13,8 +13,8 @@ def checkIfAvailable(seatID):
     element = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, seatID))
     )
-    class_content = element.get_attribute('class').split(" ")
-    if "available" in class_content:
+    classContent = element.get_attribute('class').split(" ")
+    if "available" in classContent:
         return True
     return False
 

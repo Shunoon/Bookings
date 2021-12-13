@@ -16,9 +16,9 @@ pip install -r requirements.txt
 ```
 To run the script:
 ```
-<path to python> Book.py <name> <email> <phone> <seats seperated by comma>
+<path to python> Book.py <name> <email> <phone> <showingnumber> <seats seperated by comma>
 
-Example: python Book.py Jhon jhon123@gmail.com 7123456 C8,C9,C10
+Example: python Book.py Jhon jhon123@gmail.com 7123456 1 C8,C9,C10
 ```
 ## For Unix
 Create new virtual environment:
@@ -35,6 +35,6 @@ pip install -r requirements.txt
 ```
 To run the script:
 ```
-<path to python> Book.py <name> <email> <phone> <seats seperated by comma>
+<path to python> Book.py <name> <email> <phone> <showingnumber> <seats seperated by comma>
 
-Example: python Book.py Jhon jhon123@gmail.com 7123456 C8,C9,C10
+Example: python Book.py Jhon jhon123@gmail.com 7123456 1 C8,C9,C10
